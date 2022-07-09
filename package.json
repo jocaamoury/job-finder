@@ -1,0 +1,30 @@
+{
+  "name": "job-finder",
+  "version": "1.0.0",
+  "description": "Api para busca de empregos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jocaamoury/job-finder.git"
+  },
+  "author": "JOAO LEMOS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jocaamoury/job-finder/issues"
+  },
+  "homepage": "https://github.com/jocaamoury/job-finder#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "sequelize": "^6.21.2",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
